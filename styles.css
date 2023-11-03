@@ -1,7 +1,7 @@
 :root {
-    --text: #dbdfac;
-    --bg: #5c1e41;
-    --btn-bg: #d7f171;
+    --text: #5960e7ef;
+    --bg: #5c1e54;
+    --btn-bg: #c6a3ee;
   }
   
   * {
@@ -51,11 +51,10 @@
   #restart {
     padding: 10px 20px;
     background-color: var(--btn-bg);
-    border: none;
     border-radius: 20px;
     color: var(--bg);
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    text-transform: uppercase;
+    box-shadow: 2px 5px 2px black;
   }
